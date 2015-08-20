@@ -27,6 +27,7 @@
 #include <queue>
 #include <string>
 #include <vector>
+#include <limits>
 #include <GQE/Config.hpp>
 #include <GQE/Core/classes/VersionInfo.hpp>
 #include <SFML/Network.hpp>
@@ -144,7 +145,7 @@ namespace GQE
   class MusicHandler;
   class SoundAsset;
   class SoundHandler;
-	
+
   // Forward declare GQE core loggers provided
   class FatalLogger;
   class FileLogger;
